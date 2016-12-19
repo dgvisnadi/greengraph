@@ -12,3 +12,5 @@ def load_image():
 
     make_graph(arguments.start, arguments.end, arguments.steps, arguments.out)
 
+if __name__ == "__main__":
+    load_image()
