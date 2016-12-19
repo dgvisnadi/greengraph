@@ -1,6 +1,6 @@
 from matplotlib import pyplot as plt
 from graph import Greengraph
-from map  import Map
+
 
 def greengraph(start, end, steps, out=False):
     ''' Generate a plot showing intensiity of green pixels between two locations.
