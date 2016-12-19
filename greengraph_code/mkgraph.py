@@ -1,5 +1,6 @@
 from matplotlib import pyplot as plt
 from greengraph_code.graph import Greengraph
+import seaborn
 
 def make_graph(start, end, steps, out=False):
     '''
@@ -29,6 +30,10 @@ def make_graph(start, end, steps, out=False):
     mygraph=Greengraph(start, end)
     data=mygraph.green_between(steps)
     plt.plot(data)
+    plt.xlabel("Steps")
+    plt.ylabel("Green Pixel")
+    plt.title("Number of green pixel from " + start + " to " + end)
+
     if out:
         plt.savefig(out)
     else:
