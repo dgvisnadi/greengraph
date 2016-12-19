@@ -3,10 +3,6 @@
 Greengraph is a package that lets you visualize the number of green pixels between two location.
 It uses Google API to retrieve the image and counts the green pixels.
 
-Example:
-
-<img src="https://github.com/dgvisnadi/greengraph/blob/master/img/London_Paris.png" align="right"/>
-
 
 ### Getting Started
 
@@ -37,4 +33,5 @@ optional arguments:
 
 Example: ```greengraph --from London --to Paris --steps 10 --out London_Paris.png```
 
+<img src="https://github.com/dgvisnadi/greengraph/blob/master/img/London_Paris.png" width=50% height=50%/>
 
