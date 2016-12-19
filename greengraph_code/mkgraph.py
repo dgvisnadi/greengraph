@@ -1,5 +1,5 @@
 from matplotlib import pyplot as plt
-from graph import Greengraph
+from greengraph_code.graph import Greengraph
 
 def make_graph(start, end, steps, out=False):
     '''

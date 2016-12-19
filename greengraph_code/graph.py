@@ -6,7 +6,7 @@ from matplotlib import image as img
 import matplotlib.pyplot as plt
 import requests
 from pylab import *
-from map import Map
+from greengraph_code.map import Map
 
 class Greengraph(object):
     def __init__(self, start, end):
