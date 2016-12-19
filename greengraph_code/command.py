@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from argparse import ArgumentParser
-from greengraph import greengraph
+from greengraph import make_graph
 
 def load_image():
     parser = ArgumentParser(description = 'Visualize amount of green pixels between two locations')
@@ -10,5 +10,5 @@ def load_image():
     parser.add_argument('--out', help='Save as: (i.e. image.png)')
     arguments = parser.parse_args()
 
-    greengraph(arguments.start, arguments.end, arguments.steps, arguments.out)
+    make_graph(arguments.start, arguments.end, arguments.steps, arguments.out)
 
