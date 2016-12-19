@@ -28,7 +28,7 @@ def make_graph(start, end, steps, out=False):
 
 
     mygraph=Greengraph(start, end)
-    data=mygraph.green_between(steps)
+    data=mygraph.green_between(steps+1)
     plt.plot(data)
     plt.xlabel("Steps")
     plt.ylabel("Green Pixel")
