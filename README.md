@@ -35,3 +35,4 @@ Example: ```greengraph --from London --to Paris --steps 10 --out London_Paris.pn
 
 <img src="https://github.com/dgvisnadi/greengraph/blob/master/img/London_Paris.png" width=80% height=80%/>
 
+For any distribution, please have a look at [CITATION.md](/CITATION.md) and [LICENSE.md](/LICENCE.md)
