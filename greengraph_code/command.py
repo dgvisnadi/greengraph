@@ -2,7 +2,7 @@
 from argparse import ArgumentParser
 from greengraph import greengraph
 
-def process():
+def load_image():
     parser = ArgumentParser(description = 'Visualize amount of green pixels between two locations')
     parser.add_argument('--from', help='Start Location')
     parser.add_argument('--to', help='End Location')
