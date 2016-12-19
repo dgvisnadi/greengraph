@@ -33,5 +33,5 @@ optional arguments:
 
 Example: ```greengraph --from London --to Paris --steps 10 --out London_Paris.png```
 
-<img src="https://github.com/dgvisnadi/greengraph/blob/master/img/London_Paris.png" width=50% height=50%/>
+<img src="https://github.com/dgvisnadi/greengraph/blob/master/img/London_Paris.png" width=80% height=80%/>
 
