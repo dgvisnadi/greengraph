@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from argparse import ArgumentParser
-from greengraph_code import greengraph
+from greengraph import greengraph
 
 def load_image():
     parser = ArgumentParser(description = 'Visualize amount of green pixels between two locations')
