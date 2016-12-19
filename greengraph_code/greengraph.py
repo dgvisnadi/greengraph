@@ -1,9 +1,9 @@
 from matplotlib import pyplot as plt
 from graph import Greengraph
 
-
 def greengraph(start, end, steps, out=False):
-    ''' Generate a plot showing intensiity of green pixels between two locations.
+    '''
+    Generate a plot showing intensity of green pixels between two locations.
 
     Parameters
     ---------
@@ -26,10 +26,10 @@ def greengraph(start, end, steps, out=False):
     '''
 
 
-    mygraph=Greengraph(start, end)
-    data=mygraph.green_between(steps)
+    mygraph=Greengraph(arguments.start, arguments.end)
+    data=mygraph.green_between(arguments.steps)
     plt.plot(data)
     if out:
-        plt.savefig(out)
+        plt.savefig(arguments.out)
     else:
-        show()
+        plt.show()
