@@ -6,7 +6,7 @@ setup(
     version = '0.1.0',
     description= 'Plot showing green pixel distribution between two locations using Google Maps.',
     author= 'Dimitri Visnadi - MPHYG001 - Univeristy College London'
-    packages = find_packages(exclude=['*tests']),
+    packages = find_packages(exclude=['*test']),
     scripts = ['scripts/greengraph'],
     install_requires = ['argparse', 'geopy', 'matplotlib', 'numpy', 'requests', 'seaborn']
 )
