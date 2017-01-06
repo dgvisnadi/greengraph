@@ -1,4 +1,4 @@
-from greengraph_code.graph import graph
+from greengraph_code.graph import Greengraph
 from nose.tools import assert_equal
 
 
