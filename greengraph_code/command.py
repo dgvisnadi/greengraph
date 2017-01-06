@@ -27,3 +27,6 @@ def test_package():
     arguments = parser.parse_args()
 
     Greengraph_test(arguments.teststart, arguments.testend)
+
+if __name__ == "__main__":
+    test_package()
