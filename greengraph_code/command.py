@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from argparse import ArgumentParser
 from greengraph_code.mkgraph import make_graph
-from greengraph_code.test.graph_test import graph_test
+from greengraph_code.test.graph_test import Greengraph_test
 
 def load_image():
     parser = ArgumentParser(description = 'Visualize amount of green pixels between two locations')
