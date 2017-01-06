@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 from argparse import ArgumentParser
 from greengraph_code.mkgraph import make_graph
+from greengraph_code.test.graph_test import graph_test
 
 def load_image():
     parser = ArgumentParser(description = 'Visualize amount of green pixels between two locations')
@@ -14,3 +15,15 @@ def load_image():
 
 if __name__ == "__main__":
     load_image()
+
+
+
+
+
+def test_package():
+    parser = ArgumentParser(description = 'Test Greengraph package')
+    parser.add_argument('--teststart', help='Start Location', dest='teststart', type=str)
+    parser.add_argument('--testend', help='End Location', dest='testend', type=str)
+    arguments = parser.parse_args()
+
+    Greengraph_test(arguments.teststart, arguments.testend)
