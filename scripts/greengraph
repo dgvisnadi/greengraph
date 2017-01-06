@@ -1,3 +1,5 @@
-#!/usr/bin/env python
 from greengraph_code.command import load_image
 load_image()
+
+from greengraph_code.test.command_test import test_package
+test_package()
