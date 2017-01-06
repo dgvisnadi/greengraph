@@ -9,8 +9,8 @@ def Greengraph_test(start, end):
     assert_equal(end, greengraph_result.end)
     return 'Test completed. All good.'
 
-    def geolocate_test():
+    # def geolocate_test():
 
-    def location_sequence_test():
+    # def location_sequence_test():
 
-    def green_between_test():
+    # def green_between_test():
