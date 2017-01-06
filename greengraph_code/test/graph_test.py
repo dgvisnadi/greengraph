@@ -4,10 +4,10 @@ from nose.tools import assert_equal
 
 def Greengraph_test(start, end):
     def Greengraph_init_test(start, end):
-    greengraph_result = Greengraph(start, end)
-    assert_equal(start, greengraph_result.start)
-    assert_equal(end, greengraph_result.end)
-    return 'Test completed. All good.'
+        greengraph_result = Greengraph(start, end)
+        assert_equal(start, greengraph_result.start)
+        assert_equal(end, greengraph_result.end)
+        return 'Test completed. All good.'
 
     # def geolocate_test():
 
