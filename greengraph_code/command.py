@@ -22,8 +22,8 @@ if __name__ == "__main__":
 
 def test_package():
     parser = ArgumentParser(description = 'Test Greengraph package')
-    parser.add_argument('--teststart', help='Start Location', dest='teststart', type=str)
-    parser.add_argument('--testend', help='End Location', dest='testend', type=str)
+    parser.add_argument('--teststart', help='Test - Start Location', dest='teststart', type=str)
+    parser.add_argument('--testend', help='Test - End Location', dest='testend', type=str)
     arguments = parser.parse_args()
 
     Greengraph_test(arguments.teststart, arguments.testend)
